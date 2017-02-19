@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.grouk.schoolmark.controller.ScheduleController">
+   <center>
+      <GridPane fx:id="scheduleGrid" BorderPane.alignment="CENTER">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+         </rowConstraints>
+         <BorderPane.margin>
+            <Insets bottom="8.0" left="8.0" right="8.0" top="8.0"/>
+         </BorderPane.margin>
+         <VBox fx:id="box1" alignment="CENTER">
+            <opaqueInsets>
+               <Insets/>
+            </opaqueInsets>
+            <GridPane.margin>
+               <Insets bottom="8.0" left="8.0" right="8.0" top="8.0"/>
+            </GridPane.margin>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="%schedule.monday">
+               <font>
+                  <Font size="14.0"/>
+               </font>
+               <VBox.margin>
+                  <Insets top="2.0"/>
+               </VBox.margin>
+            </Label>
+            <ComboBox fx:id="combo11" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo12" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo13" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo14" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo15" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo16" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+         </VBox>
+         <VBox fx:id="box2" GridPane.rowIndex="1">
+            <GridPane.margin>
+               <Insets bottom="8.0" left="8.0" right="8.0" top="8.0"/>
+            </GridPane.margin>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="%schedule.tuesday">
+               <font>
+                  <Font size="14.0"/>
+               </font>
+               <VBox.margin>
+                  <Insets top="2.0"/>
+               </VBox.margin>
+            </Label>
+            <ComboBox fx:id="combo21" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo22" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo23" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo24" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo25" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo26" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+         </VBox>
+         <VBox fx:id="box3" GridPane.rowIndex="2">
+            <GridPane.margin>
+               <Insets bottom="8.0" left="8.0" right="8.0" top="8.0"/>
+            </GridPane.margin>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="%schedule.wednesday">
+               <font>
+                  <Font size="14.0"/>
+               </font>
+               <VBox.margin>
+                  <Insets top="2.0"/>
+               </VBox.margin>
+            </Label>
+            <ComboBox fx:id="combo31" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo32" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo33" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo34" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo35" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo36" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+         </VBox>
+         <VBox fx:id="box4" GridPane.columnIndex="1">
+            <GridPane.margin>
+               <Insets bottom="8.0" left="8.0" right="8.0" top="8.0"/>
+            </GridPane.margin>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="%schedule.thursday">
+               <font>
+                  <Font size="14.0"/>
+               </font>
+               <VBox.margin>
+                  <Insets top="2.0"/>
+               </VBox.margin>
+            </Label>
+            <ComboBox fx:id="combo41" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo42" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo43" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo44" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo45" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo46" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+         </VBox>
+         <VBox fx:id="box5" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <GridPane.margin>
+               <Insets bottom="8.0" left="8.0" right="8.0" top="8.0"/>
+            </GridPane.margin>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="%schedule.friday">
+               <font>
+                  <Font size="14.0"/>
+               </font>
+               <VBox.margin>
+                  <Insets top="2.0"/>
+               </VBox.margin>
+            </Label>
+            <ComboBox fx:id="combo51" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo52" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo53" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo54" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo55" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="combo56" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets top="8.0"/>
+               </VBox.margin>
+            </ComboBox>
+         </VBox>
+         <VBox fx:id="box6" alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <GridPane.margin>
+               <Insets bottom="8.0" left="8.0" right="8.0" top="8.0"/>
+            </GridPane.margin>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false"
+                    onMouseClicked="#onSubjectButtonClick" text="%schedule.subject">
+               <VBox.margin>
+                  <Insets bottom="16.0" left="8.0" right="8.0" top="8.0"/>
+               </VBox.margin>
+            </Button>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false"
+                    onMouseClicked="#onSaveButtonClick" text="%schedule.save">
+               <VBox.margin>
+                  <Insets bottom="8.0" left="8.0" right="8.0" top="16.0"/>
+               </VBox.margin>
+            </Button>
+         </VBox>
+      </GridPane>
+   </center>
+</BorderPane>
